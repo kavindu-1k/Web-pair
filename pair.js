@@ -76,7 +76,7 @@ router.get('/', async (req, res) => {
                     await SUPUNMDInc.sendMessage(userJid, { text: stringSession });
 
                     // Send confirmation message
-                    await SUPUNMDInc.sendMessage(userJid, { text: "❗ `Dont share Your code to anyone`\n\n*💕Thank you for using SUPUN-MD*\n\n*👉🏻If you have any problem please contact us on Whatsapp*\n\n*👉🏻https://wa.me/94718461889*\n\n*👉🏻https://github.com/mrsupunfernando12/SUPUN-MD/fork*\n\n*👉🏻https://whatsapp.com/channel/0029VaXRYlrKwqSMF7Tswi38*\n\n*👉🏻https://youtube.com/@darkshadow_zap?si=8js31BzLWISSdz12*\n\n----------------------------------------------------\n\n" });
+                    await SUPUNMDInc.sendMessage(userJid, { text: "❗ `Dont share Your code to anyone`\n\n*💕Thank you for using KAVIYA-MD*\n\n*👉🏻If you have any problem please contact us on Whatsapp*\n\n*👉🏻https://wa.me/94763299135*\n\n*👉🏻https://github.com/kavindu-1k/KAVIYA-MD/fork*\n\n*👉🏻https://whatsapp.com/channel/0029Vb66eTH8qJ006EfBnx16*\n\n*👉🏻https://youtube.com/@kavindukalpana-kaviyamd?si=0LvacOlVntEWkecg*\n\n----------------------------------------------------\n\n" });
 
                     // Clean up session after use
                     await delay(100);
